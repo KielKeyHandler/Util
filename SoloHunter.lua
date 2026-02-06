@@ -219,7 +219,7 @@ local function CreateKeyPanel()
             if LocalPlayer.UserId == devUserId then
                 valid = true
             else
-                LocalPlayer:Kick("DEVELOPER KEY")
+                LocalPlayer:Kick("Access denied!\nOnly developers can use this key")
                 return
             end
         end
