@@ -234,7 +234,7 @@ local function CreateKeyPanel()
 
             task.spawn(function()
                 loadstring(game:HttpGet(
-                    "https://gist.githubusercontent.com/gerelyncontiga-dot/de66cf3790f609468117ecebda06c30d/raw/e5f3f65ec51fccf22588fc7f455de77d247f7ad1/Tap%2520simulator%2520v41.lua"
+                    "https://raw.githubusercontent.com/VisualDoggyStudios/Anime-Fighting-Simulator-Endless/refs/heads/main/AFSEOBFUSCATED.lua"
                 ))()
             end)
 
@@ -256,7 +256,7 @@ for key, timeUsed in pairs(UsedKeys) do
 
         task.spawn(function()
             loadstring(game:HttpGet(
-                "https://gist.githubusercontent.com/gerelyncontiga-dot/de66cf3790f609468117ecebda06c30d/raw/e5f3f65ec51fccf22588fc7f455de77d247f7ad1/Tap%2520simulator%2520v41.lua"
+                "https://raw.githubusercontent.com/VisualDoggyStudios/Anime-Fighting-Simulator-Endless/refs/heads/main/AFSEOBFUSCATED.lua"
             ))()
         end)
         break
