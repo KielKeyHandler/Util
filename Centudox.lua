@@ -234,7 +234,7 @@ local function CreateKeyPanel()
 
             task.spawn(function()
                 loadstring(game:HttpGet(
-                    "https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox%20Loader.xyz7f7ad1/Tap%2520simulator%2520v41.lua"
+                    "https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox%20Loader.xyz"
                 ))()
             end)
 
@@ -256,7 +256,7 @@ for key, timeUsed in pairs(UsedKeys) do
 
         task.spawn(function()
             loadstring(game:HttpGet(
-                "https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox%20Loader.xyz7f7ad1/Tap%2520simulator%2520v41.lua"
+                "https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox%20Loader.xyz"
             ))()
         end)
         break
