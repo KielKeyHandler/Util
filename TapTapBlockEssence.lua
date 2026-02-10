@@ -141,7 +141,7 @@ local function CreateKeyPanel()
     ScreenGui.Parent = LocalPlayer:WaitForChild("PlayerGui")
 
     local Panel = Instance.new("Frame")
-    Panel.Size = UDim2.new(0, 350, 0, 280)
+    Panel.Size = UDim2.new(0, 350, 0, 250)
     Panel.Position = UDim2.new(0.5, -175, 0.5, -140)
     Panel.BackgroundColor3 = Color3.fromRGB(0,0,0)
     Panel.BorderSizePixel = 0
@@ -175,7 +175,7 @@ local function CreateKeyPanel()
 
     local VerifyBtn = Instance.new("TextButton")
     VerifyBtn.Size = UDim2.new(0,120,0,30)
-    VerifyBtn.Position = UDim2.new(0.5, -60, 0, 100)
+    VerifyBtn.Position = UDim2.new(0.5, -60, 0, 105)
     VerifyBtn.BackgroundColor3 = Color3.fromRGB(40,40,45)
     VerifyBtn.Text = "Verify"
     VerifyBtn.Font = Enum.Font.SourceSansBold
@@ -206,9 +206,9 @@ local function CreateKeyPanel()
     end
 
     -- ORIGINAL BUTTONS / POSITIONS
-    CreateLinkBtn("Primary Key", 20, 150, links.Primary)
-    CreateLinkBtn("Backup Key", 120, 150, links.Backup)
-    CreateLinkBtn("Discord", 220, 150, links.Discord)
+    CreateLinkBtn("Primary Key", 80, 150, links.Primary)
+    CreateLinkBtn("Backup Key", 180, 150, links.Backup)
+    CreateLinkBtn("Discord", 130, 190, links.Discord)
 
     VerifyBtn.MouseButton1Click:Connect(function()
         local key = KeyBox.Text
